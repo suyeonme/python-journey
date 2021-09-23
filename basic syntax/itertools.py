@@ -1,6 +1,6 @@
 from itertools import product, permutations, combinations, accumulate, groupby, count, cycle, repeat
 
-# (1) product
+# (1) product: Cartesian product of input iterables.
 a = [1, 2]
 b = [3, 4]
 prod = product(a, b)
